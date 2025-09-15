@@ -8,7 +8,6 @@ D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.csproj.GenerateResource.c
 D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.csproj.CoreCompileInputs.cache
 D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.exe
 D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.pdb
-D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.exe.config
 D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.csproj.Up2Date
 D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\ClosedXML.dll
 D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\DocumentFormat.OpenXml.dll
@@ -41,3 +40,4 @@ D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\System.Memory.xml
 D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\System.Numerics.Vectors.xml
 D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\VisualStudio\project\ApkWin\ApkWin\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\VisualStudio\project\ApkWin\ApkWin\obj\Debug\ApkWin.exe.config

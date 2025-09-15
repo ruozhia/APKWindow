@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace ApkWin
             string aaptPath = GetPath(); // 修改为你自己的aapt路径
 
             Console.WriteLine("aapt路径: " + aaptPath);
+            MessageBox.Show("aapt路径: " + aaptPath);
             mApkPath = apkPath;
 
             ProcessStartInfo psi = new ProcessStartInfo
@@ -101,11 +103,17 @@ namespace ApkWin
 
         private static string GetPath()
         {
-            var path = System.Windows.Forms.Application.StartupPath;
-            for (int i = 0; i < 2; i++)
+            //var path = System.Windows.Forms.Application.StartupPath;
+            var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+
+            if (path.Contains("D:\\VisualStudio\\project\\ApkWin"))
             {
-                path = Path.GetDirectoryName(path);
+                for (int i = 0; i < 2; i++)
+                {
+                    path = Path.GetDirectoryName(path);
+                }
             }
+
             return path + @"\tool\aapt2.exe";
         }
     }
