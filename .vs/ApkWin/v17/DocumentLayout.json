@@ -65,8 +65,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T09:35:41.916Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -106,8 +105,7 @@
               "RelativeToolTip": "ApkWin\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T07:11:07.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T07:11:07.267Z"
             },
             {
               "$type": "Document",
@@ -118,8 +116,7 @@
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ApkWin\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T07:11:08.109Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-09-12T07:11:08.109Z"
             },
             {
               "$type": "Document",
@@ -131,8 +128,7 @@
               "RelativeToolTip": "ApkWin\\ApkHelper.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAtwGAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T06:46:00.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T06:46:00.174Z"
             }
           ]
         }

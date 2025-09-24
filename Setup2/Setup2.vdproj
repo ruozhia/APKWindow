@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0CD5E29286A2484B8C21DAB8C81420B8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_0D0812DC366C872707AE934F07CD512E"
         "OwnerKey" = "8:_3BFFD17F5FF0484A073C5AB9CBE01DF0"
         "MsmSig" = "8:_UNDEFINED"
@@ -75,6 +69,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3AAED4E1933B48C9B4C32C93AA125045"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3BFFD17F5FF0484A073C5AB9CBE01DF0"
         "OwnerKey" = "8:_F9E8C60C106AF600AAD4E2976791EC54"
         "MsmSig" = "8:_UNDEFINED"
@@ -99,8 +99,14 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_494BEA5B608A4403A51332C94F39EAA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4A170D67E485CE32D7B8FE327C41D261"
-        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
+        "OwnerKey" = "8:_3AAED4E1933B48C9B4C32C93AA125045"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -256,7 +262,7 @@
         "Entry"
         {
         "MsmKey" = "8:_919BF7B11A35ED283BD49FB4F388FC22"
-        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
+        "OwnerKey" = "8:_3AAED4E1933B48C9B4C32C93AA125045"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -297,6 +303,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9352C0B18C614F7BAE5AF53562071EB3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9420E4673F25B08094E44238D7AA49F0"
         "OwnerKey" = "8:_3BFFD17F5FF0484A073C5AB9CBE01DF0"
         "MsmSig" = "8:_UNDEFINED"
@@ -311,12 +323,6 @@
         {
         "MsmKey" = "8:_9420E4673F25B08094E44238D7AA49F0"
         "OwnerKey" = "8:_66D703EB62684FCD9FEE508EB60A1334"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -453,12 +459,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BDE2C9F383814F62B95058E7AD5F2012"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_C27435395E4BCAFFC7B6129620641C7D"
         "OwnerKey" = "8:_66D703EB62684FCD9FEE508EB60A1334"
         "MsmSig" = "8:_UNDEFINED"
@@ -574,7 +574,7 @@
         "Entry"
         {
         "MsmKey" = "8:_F9E8C60C106AF600AAD4E2976791EC54"
-        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
+        "OwnerKey" = "8:_3AAED4E1933B48C9B4C32C93AA125045"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -604,7 +604,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
+        "OwnerKey" = "8:_3AAED4E1933B48C9B4C32C93AA125045"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -938,26 +938,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0CD5E29286A2484B8C21DAB8C81420B8"
-            {
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.pdb"
-            "TargetName" = "8:ApkWin.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0D0812DC366C872707AE934F07CD512E"
             {
             "AssemblyRegister" = "3:1"
@@ -1071,6 +1051,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3AAED4E1933B48C9B4C32C93AA125045"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ApkWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3AAED4E1933B48C9B4C32C93AA125045"
+                    {
+                    "Name" = "8:ApkWin.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3BFFD17F5FF0484A073C5AB9CBE01DF0"
             {
             "AssemblyRegister" = "3:1"
@@ -1117,6 +1128,26 @@
                 }
             "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\AndroidXml.dll"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_494BEA5B608A4403A51332C94F39EAA5"
+            {
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.pdb"
+            "TargetName" = "8:ApkWin.pdb"
             "Tag" = "8:"
             "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
             "Condition" = "8:"
@@ -1727,6 +1758,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9352C0B18C614F7BAE5AF53562071EB3"
+            {
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe.config"
+            "TargetName" = "8:ApkWin.exe.config"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_9420E4673F25B08094E44238D7AA49F0"
             {
             "AssemblyRegister" = "3:1"
@@ -1756,37 +1807,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_958FCB22854F4BD0A47FC411A22432E2"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ApkWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_958FCB22854F4BD0A47FC411A22432E2"
-                    {
-                    "Name" = "8:ApkWin.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98F336399059D775A46251FDF7ECE2AE"
@@ -2090,26 +2110,6 @@
                 }
             "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\System.IO.Packaging.dll"
             "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDE2C9F383814F62B95058E7AD5F2012"
-            {
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe.config"
-            "TargetName" = "8:ApkWin.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
             "Condition" = "8:"
