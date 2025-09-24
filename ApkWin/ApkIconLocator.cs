@@ -19,14 +19,15 @@ namespace ApkWin
     {
         static string AAPT_PATH = GetPath();
         public static string iconPath = ""; // 图片路径
-        public static string mApkPath = ""; // 图片路径
+        public static string mApkPath = ""; // APK路径
+        public static string mApkLabel = ""; // APK名称
 
         public static void GetIconPath(string apkPath)
         {
             string aaptPath = GetPath(); // 修改为你自己的aapt路径
 
             Console.WriteLine("aapt路径: " + aaptPath);
-            MessageBox.Show("aapt路径: " + aaptPath);
+            //MessageBox.Show("aapt路径: " + aaptPath);
             mApkPath = apkPath;
 
             ProcessStartInfo psi = new ProcessStartInfo
@@ -47,10 +48,21 @@ namespace ApkWin
 
                 // 查找 icon 路径（有可能是 icon 或 application-icon-<density>）
                 var match = Regex.Match(output, @"application-icon(?:-\d+)?:\'([^\']+)\'");
+                var apkLabel = Regex.Match(output, @"application-label(?:-\d+)?:\'([^\']+)\'");
                 if (match.Success)
                 {
                     Console.WriteLine("图标路径: " + match.Groups[1].Value);
-                    iconPath = match.Groups[1].Value;
+                    Console.WriteLine("apk名称: " + apkLabel.Groups[1].Value);
+                    try
+                    {
+                        iconPath = match.Groups[1].Value;
+                        mApkLabel = apkLabel.Groups[1].Value;
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("获取apk图标和名称的地方报错了: " + ex.Message);
+                    }
+                    
                 }
                 else
                 {

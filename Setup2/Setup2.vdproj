@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_0CD5E29286A2484B8C21DAB8C81420B8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0D0812DC366C872707AE934F07CD512E"
         "OwnerKey" = "8:_3BFFD17F5FF0484A073C5AB9CBE01DF0"
         "MsmSig" = "8:_UNDEFINED"
@@ -87,18 +93,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3F1A032E8F7F4EB8984C7ECA3C5CCE30"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_40A4DA18202A4759857A143B1B4C82CA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_4731A07526304FA993E38A9971F8903D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -106,18 +100,12 @@
         "Entry"
         {
         "MsmKey" = "8:_4A170D67E485CE32D7B8FE327C41D261"
-        "OwnerKey" = "8:_5137CFDF139E4967BB2A2CBC912263A4"
+        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_4F5BF4D09D6A495FB36BF8CAB7712F62"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5137CFDF139E4967BB2A2CBC912263A4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -220,19 +208,7 @@
         "Entry"
         {
         "MsmKey" = "8:_8DD456DC5BFDB4B32396AAC4F6349FAB"
-        "OwnerKey" = "8:_919BF7B11A35ED283BD49FB4F388FC22"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8DD456DC5BFDB4B32396AAC4F6349FAB"
         "OwnerKey" = "8:_D78999AF64DF47EAA882D770FF5DBB22"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8DD456DC5BFDB4B32396AAC4F6349FAB"
-        "OwnerKey" = "8:_2905FB77A20B48D0BEA1B5399AC11235"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -255,6 +231,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8DD456DC5BFDB4B32396AAC4F6349FAB"
+        "OwnerKey" = "8:_919BF7B11A35ED283BD49FB4F388FC22"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8DD456DC5BFDB4B32396AAC4F6349FAB"
+        "OwnerKey" = "8:_2905FB77A20B48D0BEA1B5399AC11235"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8E7C4099F439366B5E76FE6B6FCCC006"
         "OwnerKey" = "8:_66D703EB62684FCD9FEE508EB60A1334"
         "MsmSig" = "8:_UNDEFINED"
@@ -268,7 +256,7 @@
         "Entry"
         {
         "MsmKey" = "8:_919BF7B11A35ED283BD49FB4F388FC22"
-        "OwnerKey" = "8:_5137CFDF139E4967BB2A2CBC912263A4"
+        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -323,6 +311,12 @@
         {
         "MsmKey" = "8:_9420E4673F25B08094E44238D7AA49F0"
         "OwnerKey" = "8:_66D703EB62684FCD9FEE508EB60A1334"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -388,13 +382,13 @@
         "Entry"
         {
         "MsmKey" = "8:_AE603594A2B81DC63FD2411A3C83542E"
-        "OwnerKey" = "8:_39B0F48A39C540EABF0DD4006A16A839"
+        "OwnerKey" = "8:_921750DD081D47D09E81ED21E601F118"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_AE603594A2B81DC63FD2411A3C83542E"
-        "OwnerKey" = "8:_921750DD081D47D09E81ED21E601F118"
+        "OwnerKey" = "8:_39B0F48A39C540EABF0DD4006A16A839"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -424,13 +418,13 @@
         "Entry"
         {
         "MsmKey" = "8:_B6AC0BC9CEA938D774C61B779EA1887D"
-        "OwnerKey" = "8:_6415C46C418147E8A75AB90727537F1F"
+        "OwnerKey" = "8:_921750DD081D47D09E81ED21E601F118"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B6AC0BC9CEA938D774C61B779EA1887D"
-        "OwnerKey" = "8:_921750DD081D47D09E81ED21E601F118"
+        "OwnerKey" = "8:_6415C46C418147E8A75AB90727537F1F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -454,6 +448,12 @@
         "Entry"
         {
         "MsmKey" = "8:_BDD7AA0B804C4982A7B450DE386A283C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BDE2C9F383814F62B95058E7AD5F2012"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -574,7 +574,7 @@
         "Entry"
         {
         "MsmKey" = "8:_F9E8C60C106AF600AAD4E2976791EC54"
-        "OwnerKey" = "8:_5137CFDF139E4967BB2A2CBC912263A4"
+        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -604,7 +604,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5137CFDF139E4967BB2A2CBC912263A4"
+        "OwnerKey" = "8:_958FCB22854F4BD0A47FC411A22432E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -616,37 +616,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_891370AEB4AA4AF2950062CF349CD153"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DD404DDE9D1146A6B590073F6D23FE9C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_39B0F48A39C540EABF0DD4006A16A839"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BDD7AA0B804C4982A7B450DE386A283C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5A8DC32BF9A24F98BB3175ED51B4CB3A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7D6C66860B604212B539E54CF65C5DBC"
+        "OwnerKey" = "8:_FADC0EB5F73340A7A1D6473008E9A0DC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -658,7 +628,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_FADC0EB5F73340A7A1D6473008E9A0DC"
+        "OwnerKey" = "8:_DD404DDE9D1146A6B590073F6D23FE9C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -670,7 +640,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_632E772AC8A74C01A00017C5723D1BDF"
+        "OwnerKey" = "8:_BDD7AA0B804C4982A7B450DE386A283C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -682,13 +652,43 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_2905FB77A20B48D0BEA1B5399AC11235"
+        "OwnerKey" = "8:_891370AEB4AA4AF2950062CF349CD153"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_7D6C66860B604212B539E54CF65C5DBC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_632E772AC8A74C01A00017C5723D1BDF"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_5A8DC32BF9A24F98BB3175ED51B4CB3A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_4731A07526304FA993E38A9971F8903D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_39B0F48A39C540EABF0DD4006A16A839"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_2905FB77A20B48D0BEA1B5399AC11235"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -841,6 +841,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -857,6 +873,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -890,6 +922,26 @@
             {
             "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\System.IO.Packaging.xml"
             "TargetName" = "8:System.IO.Packaging.xml"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0CD5E29286A2484B8C21DAB8C81420B8"
+            {
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.pdb"
+            "TargetName" = "8:ApkWin.pdb"
             "Tag" = "8:"
             "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
             "Condition" = "8:"
@@ -1050,46 +1102,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F1A032E8F7F4EB8984C7ECA3C5CCE30"
-            {
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.pdb"
-            "TargetName" = "8:ApkWin.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_40A4DA18202A4759857A143B1B4C82CA"
-            {
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe.config"
-            "TargetName" = "8:ApkWin.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4731A07526304FA993E38A9971F8903D"
             {
             "AssemblyRegister" = "3:1"
@@ -1156,37 +1168,6 @@
             {
             "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ICSharpCode.SharpZipLib.xml"
             "TargetName" = "8:ICSharpCode.SharpZipLib.xml"
-            "Tag" = "8:"
-            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5137CFDF139E4967BB2A2CBC912263A4"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:ApkWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5137CFDF139E4967BB2A2CBC912263A4"
-                    {
-                    "Name" = "8:ApkWin.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe"
-            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
             "Condition" = "8:"
@@ -1777,6 +1758,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_958FCB22854F4BD0A47FC411A22432E2"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:ApkWin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_958FCB22854F4BD0A47FC411A22432E2"
+                    {
+                    "Name" = "8:ApkWin.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_98F336399059D775A46251FDF7ECE2AE"
             {
             "AssemblyRegister" = "3:1"
@@ -2078,6 +2090,26 @@
                 }
             "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\System.IO.Packaging.dll"
             "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BDE2C9F383814F62B95058E7AD5F2012"
+            {
+            "SourcePath" = "8:..\\ApkWin\\bin\\Debug\\ApkWin.exe.config"
+            "TargetName" = "8:ApkWin.exe.config"
             "Tag" = "8:"
             "Folder" = "8:_8ADAED3072FC4FA5BD52464B350FD354"
             "Condition" = "8:"

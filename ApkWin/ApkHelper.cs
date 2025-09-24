@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
@@ -67,6 +68,34 @@ namespace ApkWin
             #endregion
             return androidInfos;
         }
+
+        public static string GetLargeFileMD5(string filePath)
+        {
+            if (!File.Exists(filePath))
+                throw new FileNotFoundException("文件未找到", filePath);
+
+            using (FileStream fs = new FileStream(filePath, FileMode.Open, FileAccess.Read))
+            using (MD5 md5 = MD5.Create())
+            {
+                byte[] buffer = new byte[4096]; // 4KB 缓冲区（可根据需求调整）
+                int bytesRead;
+
+                while ((bytesRead = fs.Read(buffer, 0, buffer.Length)) > 0)
+                {
+                    md5.TransformBlock(buffer, 0, bytesRead, null, 0);
+                }
+
+                md5.TransformFinalBlock(buffer, 0, 0); // 完成哈希计算
+
+                // 转换结果（同基础版）
+                StringBuilder sb = new StringBuilder();
+                foreach (byte b in md5.Hash)
+                {
+                    sb.Append(b.ToString("x2"));
+                }
+                return sb.ToString().ToUpper();
+            }
+        }
     }
 
 
@@ -94,6 +123,9 @@ namespace ApkWin
         public string Value { get; set; }
     }
 
+
+
 }
- 
+
+
 

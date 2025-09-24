@@ -33,9 +33,19 @@ namespace ApkWin
             //}
             //Console.WriteLine("路径:::::"+ path+@"\tool\ppat2.exe");
 
-            
         }
-        
+
+        public Form1(string apkPath) : this()
+        {
+
+            //MessageBox.Show("传入的参数:::::" + apkPath);
+
+            showAppInfo(apkPath);
+            ApkIconLocator.GetIconPath(apkPath);
+            showApkIconAndName(ApkIconLocator.iconPath, apkPath);
+        }
+
+
 
         private void Form1_DragEnter(object sender, DragEventArgs e)
         {
@@ -61,8 +71,8 @@ namespace ApkWin
                 // 你可以在这里做其他处理，例如显示到 TextBox
                 showAppInfo(filePath);
                 ApkIconLocator.GetIconPath(filePath);
-                showAppIcon(ApkIconLocator.iconPath, filePath);
-            }
+                showApkIconAndName(ApkIconLocator.iconPath, filePath);
+          }
         }
 
         /**
@@ -79,21 +89,57 @@ namespace ApkWin
 
             var apkInfo = ApkHelper.GetManifestInfo(apkStream);
 
-            string info = "";
+            string permission = "";
+            string apkPackageName = "";
+            string apkVersionName = "";
+            string apkVersionCode = "";
+            string apkTargetSdkVersion = "";
+            string apkMinSdkVersion = "";
             for (int i = 0; i < apkInfo.Count; i++)
             {
                 for (int j = 0; j < apkInfo[i].Settings.Count; j++)
                 {
-                    info += apkInfo[i].Settings[j].Name + " : " + apkInfo[i].Settings[j].Value + "\n";
+                    if (apkInfo[i].Settings[j].Name.Equals("package"))
+                    {
+                        apkPackageName = apkInfo[i].Settings[j].Value;
+                    }
+                    else if (apkInfo[i].Settings[j].Name.Equals("android:versionCode"))
+                    {
+                        apkVersionCode = apkInfo[i].Settings[j].Value;
+                    }
+                    else if (apkInfo[i].Settings[j].Name.Equals("android:versionName"))
+                    {
+                        apkVersionName = apkInfo[i].Settings[j].Value;
+                    }
+                    else if (apkInfo[i].Settings[j].Name.Equals("android:targetSdkVersion"))
+                    {
+                        apkTargetSdkVersion = apkInfo[i].Settings[j].Value;
+                    }
+                    else if (apkInfo[i].Settings[j].Name.Equals("android:minSdkVersion"))
+                    {
+                        apkMinSdkVersion = apkInfo[i].Settings[j].Value;
+                    }
+                    else if (apkInfo[i].Settings[j].Value.Contains("android.permission"))
+                    {
+                        permission += apkInfo[i].Settings[j].Value + "\n";
+                    }
+
                 }
             }
-            rich_tv_test.Text = info;
+
+            tb_package_name.Text = apkPackageName;
+            tb_version_code.Text = apkVersionCode;
+            tb_version_name.Text = apkVersionName;
+            tb_target_sdk_version.Text = apkTargetSdkVersion;
+            tb_min_sdk_version.Text = apkMinSdkVersion;
+            rtb_permission.Text = permission;
+            tb_md5.Text = ApkHelper.GetLargeFileMD5(apkPath);
         }
 
         /**
         * 显示APK图标
         */
-        private void showAppIcon(string iconPath,string apkPath)
+        private void showApkIconAndName(string iconPath, string apkPath)
         {
 
             if (iconPath.Equals(""))
@@ -111,11 +157,12 @@ namespace ApkWin
                         try
                         {
                             imv_icon.Image = Image.FromStream(iconStream);
-                        }catch(Exception e)
+                        }
+                        catch (Exception e)
                         {
 
                         }
-                        
+
                     }
                 }
                 else
@@ -123,6 +170,12 @@ namespace ApkWin
                     MessageBox.Show("未找到图标文件：" + iconPath);
                 }
             }
+
+            if (ApkIconLocator.mApkLabel != null || !"".Equals("ApkIconLocator.mApkLabel"))
+            {
+                tb_label.Text = ApkIconLocator.mApkLabel;
+            }
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -133,6 +186,11 @@ namespace ApkWin
         private void 保存图标至桌面ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ApkIconLocator.SaveIconToDeskTop();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            new RegisterAssociation();
         }
     }
 }

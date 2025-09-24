@@ -12,11 +12,23 @@ namespace ApkWin
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            // 检查命令行参数
+            if (args.Length > 0)
+            {
+                string apkPath = args[0];
+                Application.Run(new Form1(apkPath));
+            }
+            else
+            {
+                Application.Run(new Form1());
+            }
+
+
         }
     }
 }

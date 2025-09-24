@@ -7,20 +7,28 @@
       "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\apkiconlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\apkiconlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\apkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\apkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\apkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\apkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\apkiconlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\apkiconlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|D:\\VisualStudio\\project\\ApkWin\\apkwin\\registerassociation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}|ApkWin\\ApkWin.csproj|solutionrelative:apkwin\\registerassociation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +48,23 @@
               "RelativeDocumentMoniker": "ApkWin\\Form1.cs",
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.cs",
               "RelativeToolTip": "ApkWin\\Form1.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAIAxwD4AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwHkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T08:32:30.707Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Program.cs",
+              "RelativeDocumentMoniker": "ApkWin\\Program.cs",
+              "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Program.cs",
+              "RelativeToolTip": "ApkWin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:35:41.916Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -52,49 +74,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "RegisterAssociation.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\RegisterAssociation.cs",
+              "RelativeDocumentMoniker": "ApkWin\\RegisterAssociation.cs",
+              "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\RegisterAssociation.cs",
+              "RelativeToolTip": "ApkWin\\RegisterAssociation.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAjwDkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:15:31.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ApkIconLocator.cs",
               "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\ApkIconLocator.cs",
               "RelativeDocumentMoniker": "ApkWin\\ApkIconLocator.cs",
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\ApkIconLocator.cs",
               "RelativeToolTip": "ApkWin\\ApkIconLocator.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAWwD4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T08:10:15.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-12T08:10:15.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "ApkWin\\Form1.Designer.cs",
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.Designer.cs",
               "RelativeToolTip": "ApkWin\\Form1.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T07:11:07.267Z"
+              "WhenOpened": "2025-09-12T07:11:07.267Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.cs",
               "RelativeDocumentMoniker": "ApkWin\\Form1.cs",
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ApkWin\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-12T07:11:08.109Z"
+              "WhenOpened": "2025-09-12T07:11:08.109Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ApkHelper.cs",
               "DocumentMoniker": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\ApkHelper.cs",
               "RelativeDocumentMoniker": "ApkWin\\ApkHelper.cs",
               "ToolTip": "D:\\VisualStudio\\project\\ApkWin\\ApkWin\\ApkHelper.cs",
               "RelativeToolTip": "ApkWin\\ApkHelper.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwBYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAtwGAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-12T06:46:00.174Z",
               "EditorCaption": ""
