@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApkWin", "ApkWin\ApkWin.csproj", "{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{657E2043-FDBC-F1DC-4CD9-351906DA97D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F87F469-AD5B-4D73-8F1F-D9D3838A6508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657E2043-FDBC-F1DC-4CD9-351906DA97D6}.Debug|Any CPU.ActiveCfg = Debug
+		{657E2043-FDBC-F1DC-4CD9-351906DA97D6}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65A7B651-E122-418F-8F62-712F42E61020}
+	EndGlobalSection
+EndGlobal
