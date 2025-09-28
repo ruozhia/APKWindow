@@ -17,7 +17,7 @@ namespace ApkWin
 
     public class ApkIconLocator
     {
-        static string AAPT_PATH = GetPath();
+        
         public static string iconPath = ""; // 图片路径
         public static string mApkPath = ""; // APK路径
         public static string mApkLabel = ""; // APK名称
@@ -112,12 +112,17 @@ namespace ApkWin
             }
         }
 
-
+        /**
+         * 获取aapt2路径
+         * 我这里的位置是D:\VisualStudio\project\ApkWin\ApkWin\tool\aapt2.exe
+         * 可以直接写死
+         */
         private static string GetPath()
         {
             //var path = System.Windows.Forms.Application.StartupPath;
             var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
 
+            //Debug运行的路径需要回退两格，打包后的路径不需要，没什么好的判断条件，随便弄了一个
             if (path.Contains("D:\\VisualStudio\\project\\ApkWin"))
             {
                 for (int i = 0; i < 2; i++)
