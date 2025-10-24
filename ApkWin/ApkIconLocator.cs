@@ -1,15 +1,9 @@
-﻿using DocumentFormat.OpenXml.EMMA;
-using DocumentFormat.OpenXml.Presentation;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Compression;
-using System.Linq;
 using System.Reflection;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ApkWin
@@ -17,14 +11,16 @@ namespace ApkWin
 
     public class ApkIconLocator
     {
-        
+
         public static string iconPath = ""; // 图片路径
         public static string mApkPath = ""; // APK路径
         public static string mApkLabel = ""; // APK名称
 
-        public static void GetIconPath(string apkPath)
+
+        public static void GetIconPath(string apkPath, int plan)
         {
-            string aaptPath = GetPath(); // 修改为你自己的aapt路径
+
+            string aaptPath = GetPath(plan); // 修改为你自己的aapt路径
 
             Console.WriteLine("aapt路径: " + aaptPath);
             //MessageBox.Show("aapt路径: " + aaptPath);
@@ -61,8 +57,9 @@ namespace ApkWin
                     catch (Exception ex)
                     {
                         Console.WriteLine("获取apk图标和名称的地方报错了: " + ex.Message);
+                        MessageBox.Show("获取apk图标和名称的地方报错了: " + ex.Message);
                     }
-                    
+
                 }
                 else
                 {
@@ -75,22 +72,40 @@ namespace ApkWin
                     }
 
                     else
+                    {
+                        if (plan == 1)
+                        {
+                            // 备用方案，使用aapt2再试一次
+                            GetIconPath(apkPath, 2);
+                            return;
+                        }
                         Console.WriteLine("未找到图标路径");
+                    }
+
                 }
             }
             //SaveIconToDeskTop();
 
         }
 
-        public static void SaveIconToDeskTop()
+        public static String SaveIconToDeskTop(bool isShowMessageBox)
         {
             // 获取桌面路径
             string desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string savePath = Path.Combine(desktop, DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + ".png"); // 可自定义文件名
-
+            string savePath = "";
+            if (isShowMessageBox)
+            {
+                savePath = Path.Combine(desktop, DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + ".png"); // 可自定义文件名
+            }
+            else
+            {
+                //savePath = GetPath().Replace(@"\tool\aapt2.exe", @"\webp\" + DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + ".png");
+                savePath = (@"C:\Users\admin\Downloads\" + DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + ".png");
+                Console.WriteLine("保存图标路径: " + savePath);
+            }
             if (iconPath.Equals("") || "".Equals(mApkPath))
             {
-                return;
+                return null;
             }
 
             using (ZipArchive zip = ZipFile.OpenRead(mApkPath))
@@ -103,13 +118,21 @@ namespace ApkWin
                     {
                         iconStream.CopyTo(fileStream);
                     }
-                    MessageBox.Show("图标已保存到桌面: " + savePath);
+                    if (isShowMessageBox)
+                    {
+                        MessageBox.Show("图标已保存到桌面: " + savePath);
+                    }
+                    else
+                    {
+                        return savePath;
+                    }
                 }
                 else
                 {
                     MessageBox.Show("未找到图标文件：" + iconPath);
                 }
             }
+            return null;
         }
 
         /**
@@ -117,7 +140,7 @@ namespace ApkWin
          * 我这里的位置是D:\VisualStudio\project\ApkWin\ApkWin\tool\aapt2.exe
          * 可以直接写死
          */
-        private static string GetPath()
+        private static string GetPath(int aaptVersion)
         {
             //var path = System.Windows.Forms.Application.StartupPath;
             var path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
@@ -131,7 +154,17 @@ namespace ApkWin
                 }
             }
 
-            return path + @"\tool\aapt2.exe";
+            /**
+             * 因为使用aapt2去取微信apk的信息时，会有很多warning信息导致应用“无响应了”，所以改用aapt去获取
+             * 但是使用aapt去获取部分apk会提示“该APK没有Androidmanifest”获取失败，其实那个APK是有的，而aapt2正常
+             * 
+             * 所以，交替使用吧，默认aapt，aapt2备用方案
+             */
+            if (aaptVersion == 2)
+            {
+                return path + @"\tool\aapt2.exe";
+            }
+            return path + @"\tool\aapt.exe";
         }
     }
 }

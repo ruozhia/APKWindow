@@ -16,14 +16,6 @@ namespace ApkWin
             btn_test.AllowDrop = true;
             btn_test.DragEnter += Form1_DragEnter;
             btn_test.DragDrop += Form1_DragDrop;
-
-            //var path = System.Windows.Forms.Application.StartupPath;
-            //for (int i = 0; i < 3; i++)
-            //{
-            //    path = Path.GetDirectoryName(path);
-            //}
-            //Console.WriteLine("路径:::::"+ path+@"\tool\ppat2.exe");
-
         }
 
         public Form1(string apkPath) : this()
@@ -32,7 +24,7 @@ namespace ApkWin
             //MessageBox.Show("传入的参数:::::" + apkPath);
 
             showAppInfo(apkPath);
-            ApkIconLocator.GetIconPath(apkPath);
+            ApkIconLocator.GetIconPath(apkPath, 1);
             showApkIconAndName(ApkIconLocator.iconPath, apkPath);
         }
 
@@ -61,7 +53,7 @@ namespace ApkWin
                 //MessageBox.Show("拖入的文件路径：" + filePath);
                 // 你可以在这里做其他处理，例如显示到 TextBox
                 showAppInfo(filePath);
-                ApkIconLocator.GetIconPath(filePath);
+                ApkIconLocator.GetIconPath(filePath, 1);
                 showApkIconAndName(ApkIconLocator.iconPath, filePath);
             }
         }
@@ -132,13 +124,17 @@ namespace ApkWin
         */
         private void showApkIconAndName(string iconPath, string apkPath)
         {
-
+            //MessageBox.Show("图标路径:::::" + iconPath + ":::\n" + apkPath);
             if (iconPath.Equals(""))
             {
                 return;
             }
 
-            
+            if (ApkIconLocator.mApkLabel != null || !"".Equals("ApkIconLocator.mApkLabel"))
+            {
+                tb_label.Text = ApkIconLocator.mApkLabel;
+            }
+
             using (ZipArchive zip = ZipFile.OpenRead(apkPath))
             {
                 var iconEntry = zip.GetEntry(iconPath);
@@ -147,9 +143,9 @@ namespace ApkWin
                     using (var iconStream = iconEntry.Open())
                     {
                         //pictureBox本身不支持.webp，需要额外判断
-                        if (iconPath.Contains(".webp"))
+                        if (iconPath.EndsWith(".webp"))
                         {
-                            // 1. 用 SkiaSharp 解码 WebP 流，得到位图（SKBitmap）
+
                             using (SKBitmap webpBitmap = SKBitmap.Decode(iconStream))
                             {
                                 if (webpBitmap == null)
@@ -167,22 +163,18 @@ namespace ApkWin
                                     pngStream.Position = 0;
 
                                     // 3. 将 PNG 流转换为 Image 对象，赋值给 PictureBox
-                                    imv_icon.Image = System.Drawing.Image.FromStream(pngStream);
+                                    imv_icon.Image = Image.FromStream(pngStream);
                                 }
+
                             }
                         }
                         else
                         {
                             // 用 Image.FromStream 读取图标文件流
-                            try
-                            {
-                                imv_icon.Image = Image.FromStream(iconStream);
-                            }
-                            catch (Exception e)
-                            {
+                            imv_icon.Image = Image.FromStream(iconStream);
 
-                            }
                         }
+
                     }
                 }
                 else
@@ -190,15 +182,8 @@ namespace ApkWin
                     MessageBox.Show("未找到图标文件：" + iconPath);
                 }
             }
-
-
-
-            if (ApkIconLocator.mApkLabel != null || !"".Equals("ApkIconLocator.mApkLabel"))
-            {
-                tb_label.Text = ApkIconLocator.mApkLabel;
-            }
-
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -207,7 +192,7 @@ namespace ApkWin
 
         private void 保存图标至桌面ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ApkIconLocator.SaveIconToDeskTop();
+            ApkIconLocator.SaveIconToDeskTop(true);
         }
 
         private void button1_Click_1(object sender, EventArgs e)
